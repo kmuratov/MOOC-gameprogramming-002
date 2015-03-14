@@ -23,11 +23,6 @@ namespace MOOC.Gameprogramming.Assignment._01
         /// </summary>
         private const float g = (float)9.8;
 
-        /// <summary>
-        /// PI number
-        /// </summary>
-        private const float pi = (float)3.14159265;
-
         static void Main(string[] args)
         {
             //Print a “welcome” message to the user telling them that this application will calculate the maximum height of the shell and the distance it will travel along the ground
@@ -37,7 +32,7 @@ namespace MOOC.Gameprogramming.Assignment._01
 
             //Prompt the user for the initial angle in degrees (ask for the angle, read the value, parse the value and then store the value)
             Console.Write("Firing angle: ");
-            float theta = float.Parse(Console.ReadLine()) * pi / 180;
+            float theta = float.Parse(Console.ReadLine()) * (float)Math.PI / 180;
 
             //Prompt the user for the initial speed (ask for the speed, read the value, parse the value and then store the value)
             Console.Write("Firing speed: ");
