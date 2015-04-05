@@ -15,7 +15,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProgrammingAssignment3Conte
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameProject", "GameProject\GameProject\GameProject.csproj", "{0526AE30-2133-41A9-8A6A-B949AF196A8D}"
 EndProject
-Project("{96E2B04D-8817-42C6-938A-82C39BA4D311}") = "GameProjectContent", "GameProject\GameProjectContent\GameProjectContent.contentproj", "{E4CF7176-41AC-4877-819A-FC3E70A50787}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameProjectContent", "GameProject\GameProjectContent\GameProjectContent.contentproj", "{E4CF7176-41AC-4877-819A-FC3E70A50787}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProgrammingAssignment4", "ProgrammingAssignment4\ProgrammingAssignment4\ProgrammingAssignment4.csproj", "{DC32442E-87E2-45DB-BF6D-B0E42D2AB346}"
+EndProject
+Project("{96E2B04D-8817-42C6-938A-82C39BA4D311}") = "ProgrammingAssignment4Content", "ProgrammingAssignment4\ProgrammingAssignment4Content\ProgrammingAssignment4Content.contentproj", "{D32CF09E-3710-4A1C-B424-7C33282DE59D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -85,6 +89,22 @@ Global
 		{E4CF7176-41AC-4877-819A-FC3E70A50787}.Release|Any CPU.ActiveCfg = Release|x86
 		{E4CF7176-41AC-4877-819A-FC3E70A50787}.Release|Mixed Platforms.ActiveCfg = Release|x86
 		{E4CF7176-41AC-4877-819A-FC3E70A50787}.Release|x86.ActiveCfg = Release|x86
+		{DC32442E-87E2-45DB-BF6D-B0E42D2AB346}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{DC32442E-87E2-45DB-BF6D-B0E42D2AB346}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{DC32442E-87E2-45DB-BF6D-B0E42D2AB346}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{DC32442E-87E2-45DB-BF6D-B0E42D2AB346}.Debug|x86.ActiveCfg = Debug|x86
+		{DC32442E-87E2-45DB-BF6D-B0E42D2AB346}.Debug|x86.Build.0 = Debug|x86
+		{DC32442E-87E2-45DB-BF6D-B0E42D2AB346}.Release|Any CPU.ActiveCfg = Release|x86
+		{DC32442E-87E2-45DB-BF6D-B0E42D2AB346}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{DC32442E-87E2-45DB-BF6D-B0E42D2AB346}.Release|Mixed Platforms.Build.0 = Release|x86
+		{DC32442E-87E2-45DB-BF6D-B0E42D2AB346}.Release|x86.ActiveCfg = Release|x86
+		{DC32442E-87E2-45DB-BF6D-B0E42D2AB346}.Release|x86.Build.0 = Release|x86
+		{D32CF09E-3710-4A1C-B424-7C33282DE59D}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{D32CF09E-3710-4A1C-B424-7C33282DE59D}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{D32CF09E-3710-4A1C-B424-7C33282DE59D}.Debug|x86.ActiveCfg = Debug|x86
+		{D32CF09E-3710-4A1C-B424-7C33282DE59D}.Release|Any CPU.ActiveCfg = Release|x86
+		{D32CF09E-3710-4A1C-B424-7C33282DE59D}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{D32CF09E-3710-4A1C-B424-7C33282DE59D}.Release|x86.ActiveCfg = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

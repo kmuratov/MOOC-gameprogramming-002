@@ -124,16 +124,57 @@ namespace GameProject
         public void Update(GameTime gameTime, MouseState mouse)
         {
             // burger should only respond to input if it still has health
+            if (health <= 0) return;
 
-                // move burger using mouse
+            // move burger using mouse
+            // clamp burger in window
+            if (GameConstants.WINDOW_WIDTH < mouse.X)
+                X = GameConstants.WINDOW_WIDTH;
+            else if (mouse.X < 0)
+                X = 0;
+            else
+                X = mouse.X;
 
-                // clamp burger in window
+            if (GameConstants.WINDOW_HEIGHT < mouse.Y)
+                Y = GameConstants.WINDOW_HEIGHT;
+            else if (mouse.Y < 0)
+                Y = 0;
+            else
+                Y = mouse.Y;
 
-                // update shooting allowed
-                // timer concept (for animations) introduced in Chapter 7
+            // update shooting allowed
+            // timer concept (for animations) introduced in Chapter 7
 
-                // shoot if appropriate
+            // shoot if appropriate
 
+            if (mouse.LeftButton == ButtonState.Pressed && canShoot)
+            {
+                canShoot = false;
+
+                var pt = new Projectile(
+                    ProjectileType.FrenchFries,
+                    Game1.GetProjectileSprite(ProjectileType.FrenchFries),
+                    X,
+                    Y - GameConstants.FRENCH_FRIES_PROJECTILE_OFFSET,
+                    -GameConstants.FRENCH_FRIES_PROJECTILE_SPEED
+                    );
+
+                Game1.AddProjectile(pt);
+            }
+
+            if (!canShoot)
+            {
+                elapsedCooldownTime += gameTime.ElapsedGameTime.Milliseconds;
+
+                if (elapsedCooldownTime >= GameConstants.BURGER_COOLDOWN_MILLISECONDS
+                    ||
+                    mouse.LeftButton == ButtonState.Released)
+                {
+                    elapsedCooldownTime = 0;
+                    canShoot = true;
+                }
+            }
+            
         }
 
         /// <summary>
