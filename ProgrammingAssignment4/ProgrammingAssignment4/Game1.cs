@@ -154,8 +154,6 @@ namespace ProgrammingAssignment4
 
             }
 
-
-
             base.Update(gameTime);
         }
 

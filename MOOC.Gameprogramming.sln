@@ -19,7 +19,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameProjectContent", "GameP
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProgrammingAssignment4", "ProgrammingAssignment4\ProgrammingAssignment4\ProgrammingAssignment4.csproj", "{DC32442E-87E2-45DB-BF6D-B0E42D2AB346}"
 EndProject
-Project("{96E2B04D-8817-42C6-938A-82C39BA4D311}") = "ProgrammingAssignment4Content", "ProgrammingAssignment4\ProgrammingAssignment4Content\ProgrammingAssignment4Content.contentproj", "{D32CF09E-3710-4A1C-B424-7C33282DE59D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProgrammingAssignment4Content", "ProgrammingAssignment4\ProgrammingAssignment4Content\ProgrammingAssignment4Content.contentproj", "{D32CF09E-3710-4A1C-B424-7C33282DE59D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProgrammingAssignment5", "ProgrammingAssignment5\ProgrammingAssignment5\ProgrammingAssignment5.csproj", "{F1149FB4-2C78-4CE2-A615-3E1731AF7372}"
+EndProject
+Project("{96E2B04D-8817-42C6-938A-82C39BA4D311}") = "ProgrammingAssignment5Content", "ProgrammingAssignment5\ProgrammingAssignment5Content\ProgrammingAssignment5Content.contentproj", "{D0A8514A-FF91-4F76-B31A-9843C67DBD4B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -105,6 +109,22 @@ Global
 		{D32CF09E-3710-4A1C-B424-7C33282DE59D}.Release|Any CPU.ActiveCfg = Release|x86
 		{D32CF09E-3710-4A1C-B424-7C33282DE59D}.Release|Mixed Platforms.ActiveCfg = Release|x86
 		{D32CF09E-3710-4A1C-B424-7C33282DE59D}.Release|x86.ActiveCfg = Release|x86
+		{F1149FB4-2C78-4CE2-A615-3E1731AF7372}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{F1149FB4-2C78-4CE2-A615-3E1731AF7372}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{F1149FB4-2C78-4CE2-A615-3E1731AF7372}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{F1149FB4-2C78-4CE2-A615-3E1731AF7372}.Debug|x86.ActiveCfg = Debug|x86
+		{F1149FB4-2C78-4CE2-A615-3E1731AF7372}.Debug|x86.Build.0 = Debug|x86
+		{F1149FB4-2C78-4CE2-A615-3E1731AF7372}.Release|Any CPU.ActiveCfg = Release|x86
+		{F1149FB4-2C78-4CE2-A615-3E1731AF7372}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{F1149FB4-2C78-4CE2-A615-3E1731AF7372}.Release|Mixed Platforms.Build.0 = Release|x86
+		{F1149FB4-2C78-4CE2-A615-3E1731AF7372}.Release|x86.ActiveCfg = Release|x86
+		{F1149FB4-2C78-4CE2-A615-3E1731AF7372}.Release|x86.Build.0 = Release|x86
+		{D0A8514A-FF91-4F76-B31A-9843C67DBD4B}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{D0A8514A-FF91-4F76-B31A-9843C67DBD4B}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{D0A8514A-FF91-4F76-B31A-9843C67DBD4B}.Debug|x86.ActiveCfg = Debug|x86
+		{D0A8514A-FF91-4F76-B31A-9843C67DBD4B}.Release|Any CPU.ActiveCfg = Release|x86
+		{D0A8514A-FF91-4F76-B31A-9843C67DBD4B}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{D0A8514A-FF91-4F76-B31A-9843C67DBD4B}.Release|x86.ActiveCfg = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
